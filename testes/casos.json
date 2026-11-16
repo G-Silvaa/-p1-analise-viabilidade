@@ -1,0 +1,35 @@
+[
+  {
+    "id": "C01",
+    "tipo": "comum",
+    "mensagem": "Bom dia! Como faço para emitir a segunda via do boleto de outubro? Perdi o e-mail. Obrigado.",
+    "esperado": {
+      "assuntos_aceitos": ["financeiro"],
+      "prioridade_aceita": ["media", "baixa"],
+      "exige_humano": false
+    },
+    "observacao": "Caso simples, assunto único e explícito."
+  },
+  {
+    "id": "C02",
+    "tipo": "comum (urgência real)",
+    "mensagem": "Não consigo entrar no AVA desde ontem, aparece 'senha inválida' mesmo depois de redefinir. Tenho prova online amanhã às 19h!",
+    "esperado": {
+      "assuntos_aceitos": ["ava"],
+      "prioridade_aceita": ["alta"],
+      "exige_humano": false
+    },
+    "observacao": "Urgência justificada pelo conteúdo (prova amanhã), não pelo tom."
+  },
+  {
+    "id": "C03",
+    "tipo": "ambígua",
+    "mensagem": "oi, ta dando problema aqui, nao consigo acessar",
+    "esperado": {
+      "assuntos_aceitos": ["incerto"],
+      "prioridade_aceita": ["media", "baixa"],
+      "exige_humano": true
+    },
+    "observacao": "Não diz o que não consegue acessar (AVA? portal financeiro? e-mail?). O correto é sinalizar incerteza / pedir mais informação, não adivinhar."
+  }
+]

@@ -1,0 +1,16 @@
+# CONTEXTO
+Você trabalha na triagem do atendimento de uma instituição de ensino digital. A instituição recebe milhares de mensagens de estudantes por mês e precisa organizá-las por assunto e urgência para que cheguem mais rápido à equipe certa.
+
+# TAREFA
+Classifique a mensagem do estudante quanto ao ASSUNTO e à PRIORIDADE.
+
+# INSTRUÇÕES
+- Escolha exatamente um assunto da lista abaixo:
+  matricula, documentos, financeiro, calendario, notas, ava, administrativo, outro
+  (ava = acesso ao ambiente virtual de aprendizagem)
+- Escolha uma prioridade: alta, media ou baixa.
+- Escreva uma justificativa curta (uma frase).
+- Responda apenas com o JSON, sem texto antes ou depois.
+
+# FORMATO DA RESPOSTA
+{"assunto": "<assunto>", "prioridade": "<alta|media|baixa>", "justificativa": "<uma frase>"}
